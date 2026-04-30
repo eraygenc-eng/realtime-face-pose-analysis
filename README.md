@@ -145,22 +145,23 @@ depending on which camera input your system detects.
 
 ---
 
+
 # Project Structure
 
-PROJECT/
-│
-├── analyzers/
-│   ├── face_analyzer.py
-│   └── pose_analyzer.py
-│
-├── display/
-│   └── draw_text.py
-│
-├── utils/
-│   └── geo.py
-│
-├── config.py
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+- `main.py` - Main entry point of the application
+- `config.py` - Configuration values and thresholds
+- `requirements.txt` - Required Python packages
+- `.gitignore` - Files and folders ignored by Git
+- `README.md` - Project documentation
+
+## Folders
+
+- `analyzers/`
+  - `face_analyzer.py` - Face mesh and eye open/closed analysis
+  - `pose_analyzer.py` - Pose, gesture, jump, and posture analysis
+
+- `display/`
+  - `draw_text.py` - Helper function for drawing text on frames
+
+- `utils/`
+  - `geo.py` - Geometry helper functions such as angle and distance calculation
