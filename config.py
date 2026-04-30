@@ -1,0 +1,28 @@
+# Camera
+CAMERA_INDEX = 0
+
+# MediaPipe common settings
+MIN_DETECTION_CONFIDENCE = 0.5
+MIN_TRACKING_CONFIDENCE = 0.5
+
+# Pose settings
+POSE_MODEL_COMPLEXITY = 1
+
+# Jump detection
+JUMP_THRESHOLD = 0.05
+JUMP_RESET_OFFSET = 0.02
+
+# Arm angle thresholds
+ARM_STRAIGHT_THRESHOLD = 150
+ARM_BENT_THRESHOLD = 120
+
+# Posture thresholds
+SHOULDER_DIFF_THRESHOLD = 0.06
+HEAD_FORWARD_THRESHOLD = 0.08
+
+# Face settings
+MAX_NUM_FACES = 1
+REFINE_LANDMARKS = True
+
+# Eye detection
+EYE_CLOSED_THRESHOLD = 0.015

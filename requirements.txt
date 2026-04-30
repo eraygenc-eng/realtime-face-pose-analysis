@@ -1,0 +1,5 @@
+# Computer vision
+opencv-python
+
+# Face and pose landmark detection
+mediapipe
