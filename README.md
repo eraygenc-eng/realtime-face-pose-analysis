@@ -96,35 +96,35 @@ After setting it up, you can run the project normally.
 ---
 
 
-## How to Run This Project
+# How to Run This Project
 
 Follow these steps to run the project on your computer.
 
-# 1. Clone the repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/eraygenc-eng/realtime-face-pose-analysis.git
 ```
 
-# 2. Go into the project folder
+## 2. Go into the project folder
 
 ```bash
 cd realtime-face-pose-analysis
 ```
 
-# 3. Install the required packages
+## 3. Install the required packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# 4. Run the application
+## 4. Run the application
 
 ```bash
 python main.py
 ```
 
-# 5. Quit the application
+## 5. Quit the application
 
 When the webcam window is open, press:
 
